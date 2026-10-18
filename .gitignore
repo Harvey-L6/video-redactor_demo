@@ -1,0 +1,33 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# 測試與輸出
+output/
+test/
+*.log
+
+# 打包產物
+build/
+dist/
+*.exe
+*.zip
+
+# 本機設定與工具
+.env
+.env.*
+!.env.example
+/.tools/
+
+# 作業系統產生的檔案
+.DS_Store
+Thumbs.db
+Desktop.ini
